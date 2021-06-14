@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:align_parent_top="true"
+        ohos:text="$string:mainability_HelloWorld"
+        ohos:text_size="30vp"
+        ohos:end_margin="30vp"
+        ohos:top_margin="30vp"
+        ohos:start_margin="30vp"
+        />
+
+    <ListContainer
+        ohos:id="$+id:list_container"
+        ohos:margin="5vp"
+        ohos:height="200vp"
+        ohos:width="300vp"
+        ohos:below="$id:text_helloworld"
+        ohos:layout_alignment="horizontal_center"
+        ohos:rebound_effect="true"
+        ohos:shader_color="#FF0B46E3"/>
+
+</DependentLayout>
