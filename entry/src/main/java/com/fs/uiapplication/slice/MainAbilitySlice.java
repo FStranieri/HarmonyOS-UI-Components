@@ -46,17 +46,22 @@ public class MainAbilitySlice extends AbilitySlice {
     private void switchAbility(MenuOption option){
         switch (option) {
             case DIRECTIONAL_LAYOUT:
+                present(new DirectionalLayoutAbilitySlice(), new Intent());
                 break;
             case DEPENDENT_LAYOUT:
                 present(new DependentLayoutAbilitySlice(), new Intent());
                 break;
             case STACK_LAYOUT:
+                present(new StackLayoutAbilitySlice(), new Intent());
                 break;
             case TABLE_LAYOUT:
+                present(new TableLayoutAbilitySlice(), new Intent());
                 break;
             case POSITION_LAYOUT:
+                present(new PositionLayoutAbilitySlice(), new Intent());
                 break;
             case ADAPTIVE_BOX_LAYOUT:
+                present(new AdaptiveBoxLayoutAbilitySlice(), new Intent());
                 break;
         }
     }
@@ -70,4 +75,6 @@ public class MainAbilitySlice extends AbilitySlice {
     public void onForeground(Intent intent) {
         super.onForeground(intent);
     }
+
+
 }

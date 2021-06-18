@@ -34,7 +34,12 @@
             ],
             "actions": [
               "action.system.home",
-              "action.dependentlayout"
+              "action.directionallayout",
+              "action.dependentlayout",
+              "action.stacklayout",
+              "action.tablelayout",
+              "action.adaptiveboxlayout",
+              "action.positionlayout"
             ]
           }
         ],
