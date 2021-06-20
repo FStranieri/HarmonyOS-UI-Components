@@ -3,17 +3,15 @@
     xmlns:ohos="http://schemas.huawei.com/res/ohos"
     ohos:height="match_content"
     ohos:width="match_parent"
-    ohos:left_margin="16vp"
-    ohos:right_margin="16vp"
+    ohos:alignment="center"
     ohos:orientation="vertical">
     <Text
         ohos:id="$+id:item_index"
         ohos:height="match_content"
         ohos:width="match_content"
-        ohos:padding="4vp"
+        ohos:padding="20vp"
         ohos:text="Item0"
         ohos:text_color="#FFC32D2D"
         ohos:text_font="sans-serif-condensed-medium"
-        ohos:text_size="20fp"
-        ohos:layout_alignment="center"/>
+        ohos:text_size="30fp"/>
 </DirectionalLayout>
