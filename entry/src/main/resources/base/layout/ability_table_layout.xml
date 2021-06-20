@@ -1,19 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DirectionalLayout
+<TableLayout
     xmlns:ohos="http://schemas.huawei.com/res/ohos"
     ohos:height="match_parent"
     ohos:width="match_parent"
     ohos:alignment="center"
-    ohos:orientation="vertical">
+    ohos:alignment_type="align_contents"
+    ohos:background_element="#87CEEB"
+    ohos:column_count="$integer:table_col_count"
+    ohos:padding="$float:table_padding">
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="1"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
 
     <Text
-        ohos:id="$+id:text_helloworld"
-        ohos:height="match_content"
-        ohos:width="match_content"
-        ohos:background_element="$graphic:background_ability_dependent_layout"
-        ohos:layout_alignment="horizontal_center"
-        ohos:text="$string:dependentlayoutability_HelloWorld"
-        ohos:text_size="40vp"
-        />
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="2"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
 
-</DirectionalLayout>
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="3"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="4"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="5"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="6"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="7"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="8"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="9"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="10"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="11"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="12"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="13"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="14"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+
+    <Text
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:background_element="$graphic:table_text_bg_element"
+        ohos:margin="8vp"
+        ohos:text="15"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"/>
+</TableLayout>
