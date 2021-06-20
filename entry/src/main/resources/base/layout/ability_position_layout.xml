@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DirectionalLayout
-    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+<PositionLayout
+    ohos:id="$+id:position"
     ohos:height="match_parent"
-    ohos:width="match_parent"
-    ohos:alignment="center"
-    ohos:orientation="vertical">
+    ohos:width="300vp"
+    ohos:background_element="#3387CEFA"
+    xmlns:ohos="http://schemas.huawei.com/res/ohos">
 
     <Text
-        ohos:id="$+id:text_helloworld"
-        ohos:height="match_content"
-        ohos:width="match_content"
-        ohos:background_element="$graphic:background_ability_dependent_layout"
-        ohos:layout_alignment="horizontal_center"
-        ohos:text="$string:dependentlayoutability_HelloWorld"
-        ohos:text_size="40vp"
+        ohos:id="$+id:position_text_1"
+        ohos:height="50vp"
+        ohos:width="200vp"
+        ohos:background_element="#9987CEFA"
+        ohos:position_x="50vp"
+        ohos:position_y="8vp"
+        ohos:text="top"
+        ohos:text_alignment="start"
+        ohos:text_size="20fp"
+        ohos:padding="5vp"
         />
 
-</DirectionalLayout>
+    <Text
+        ohos:id="$+id:position_text_2"
+        ohos:height="200vp"
+        ohos:width="200vp"
+        ohos:background_element="#9987CEFA"
+        ohos:position_x="8vp"
+        ohos:position_y="64vp"
+        ohos:text="middle"
+        ohos:text_alignment="top|end"
+        ohos:text_size="20fp"
+        ohos:padding="5vp"/>
+
+    <Text
+        ohos:id="$+id:position_text_3"
+        ohos:height="200vp"
+        ohos:width="200vp"
+        ohos:background_element="#9987CEFA"
+        ohos:position_x="80vp"
+        ohos:position_y="150vp"
+        ohos:text="bottom"
+        ohos:text_alignment="top|start"
+        ohos:text_size="20fp"
+        ohos:padding="5vp"
+        />
+</PositionLayout>
